@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         OkHttpClient client = new OkHttpClient();
         //TODO::  use your won appID 
         Request request = new Request.Builder()
-                .url("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=fdfa8b80824797e4dbc476e375646e9b&units=metric")
+                .url("https://api.openweathermap.org/data/2.5/weather?q="+city+"&appid=YourApi&units=metric")
                 .get()
                 .build();
 
